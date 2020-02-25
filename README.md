@@ -52,7 +52,8 @@ To test, you can execute `wmio test`.
 ## Deployment
 Execute `wmio deploy` to deploy this connector to your webmethods.io tenant. And `wmio unpublish` to unpublish the published connector app along with triggers and actions associated with the app.
 
-![Bigcommerce Connector](https://user-images.githubusercontent.com/20556391/75148306-58983d00-5725-11ea-9375-69f7dfa72053.png)
+![Deputy Connector](https://user-images.githubusercontent.com/20556391/75240942-31a43e80-57eb-11ea-849e-e4c25bf43321.PNG)
+
 
 ## Built With
 Node v8.14.0 and [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI.
