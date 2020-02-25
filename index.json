@@ -1,0 +1,78 @@
+{
+  "name": "Deputy",
+  "description": "Deputy",
+  "triggers": [],
+  "actions": [
+    "/v1/get_details_about_the_user",
+    "/v1/get_employee_details",
+    "/v1/invite_an_employee_to_deputy",
+    "/v1/terminate_an_employee",
+    "/v1/active_an_employee",
+    "/v1/delete_an_employee",
+    "/v1/create_a_journal",
+    "/v1/add_a_employee",
+    "/v1/update_an_employee",
+    "/v1/start_given_employee's_timesheet",
+    "/v1/get_time",
+    "/v1/current_payroll_status",
+    "/v1/list_system_roster_template",
+    "/v1/archive_a_location_in_deputy"
+  ],
+  "version": 1,
+  "auth_type": "custom",
+  "docs_link": "http://docs.example.com",
+  "appId": "305a4c63-631f-49db-8c61-de5d20b60ec4",
+  "guid": "5ecc5fc4-5f6d-4a48-a757-694cbe091bad",
+  "connectionUid": "deputy_1582606965902",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/start_given_employee's_timesheet",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/update_an_employee",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/create_a_journal",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/get_employee_details",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/delete_an_employee",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/active_an_employee",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/terminate_an_employee",
+      "field_id": "eid",
+      "dependencies": []
+    },
+    {
+      "lookup_id": "get_employee",
+      "action_id": "/v1/invite_an_employee_to_deputy",
+      "field_id": "eid",
+      "dependencies": []
+    }
+  ]
+}
